@@ -6,7 +6,7 @@ const appDiv = document.querySelector<HTMLDivElement>('#app');
 if (appDiv) {
   ReactDOM.createRoot(appDiv).render(
     <React.StrictMode>
-      <div style={{ backgroundColor: '#FAF7F5' }}>
+      <div id="app" style={{ minHeight: '100vh', background: '#FAF7F5', marginTop: 8 }}>        
         <App />
       </div>
     </React.StrictMode>

@@ -21,7 +21,11 @@ const MenuDetailPage = () => (
   <Box sx={{bgcolor: '#FAF7F5'}}>
     <Header />
     <Box sx={{mt:12}}>
-      <DetailViewCard MenuDetailViewImage={cards[1].img} MenuTitle={cards[1].title} cardHeight={140} cardWidth={200} imgWidth={180} />
+      <DetailViewCard MenuDetailViewImage={cards[1].img} MenuTitle={`${cards[1].title} Margaritha`} cardHeight={140} cardWidth={130} imgWidth={130} />
+      <DetailViewCard MenuDetailViewImage={cards[1].img} MenuTitle={`${cards[1].title} Salami`} cardHeight={140} cardWidth={130} imgWidth={130} />
+      <DetailViewCard MenuDetailViewImage={cards[1].img} MenuTitle={`${cards[1].title} Funghi`} cardHeight={140} cardWidth={130} imgWidth={130} />
+
+    
     </Box>
     <Navigation />
   </Box>

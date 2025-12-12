@@ -21,9 +21,9 @@ const HomePage = () => {
 
   const navigate = useNavigate();
   return (
-    <Box sx={{bgcolor: '#FAF7F5'}}>
+    <Box>
       <Header />
-      <Box sx={{mt:12}}>
+      <Box>
         <Box
           sx={{
             display: 'grid',
